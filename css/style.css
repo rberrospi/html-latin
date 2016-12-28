@@ -1,0 +1,38 @@
+body {
+	background-color: #282828;
+}
+
+.sm {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navbar-default {
+    background-image: -webkit-linear-gradient(top,#181818 0,#050505 100%);
+    background-image: -o-linear-gradient(top,#181818 0,#050505 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#181818),to(#050505));
+    background-image: linear-gradient(to bottom,#181818 0,#050505 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#181818', endColorstr='#050505', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(12, 12, 12, 0.15), 0 1px 5px rgba(0,0,0,.075);
+}
+
+.slider {
+	background-image: url("../img/fondo_slider.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 454px;
+	background-color: #050404;
+}
+.div-gradient {
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(90deg, #C92324 20%, #7D0C81 79%); 
+	background: -moz-linear-gradient(90deg, #C92324 20%, #7D0C81 79%); 
+	background: -webkit-linear-gradient(90deg, #C92324 20%, #7D0C81 79%); 
+	background: -o-linear-gradient(90deg, #C92324 20%, #7D0C81 79%); 
+}
