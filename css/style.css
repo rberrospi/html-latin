@@ -51,7 +51,23 @@ body {
 }
 
 .txt_slider {
-	padding-top: 80px;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.txt_top {
+	height: 79px;
+	background-image: url("../img/lineas_top.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+}
+
+.txt_top > h4 {
+	padding-top: 20px;
+}
+.txt_top > h2 {
+	margin-top: 10px;
 }
 
 .centrar{
@@ -61,6 +77,15 @@ body {
 
 .btn_flecha {
 	padding-top: 10px;
+}
+
+.blq_modelos {
+	margin-top: 50px; 
+}
+
+.model {
+	display: block;
+	height: 380px;
 }
 
 /* Laptop o Pc de baja resolución*/
@@ -80,5 +105,8 @@ body {
 	.navbar-nav{
 	float: none;
 	text-align: center;
+	}
+	.txt_slider {
+		display: none;
 	}
 }
