@@ -83,9 +83,19 @@ body {
 	margin-top: 50px;
 }
 
+.blq_modelos_2 {
+	margin-top: 50px;
+}
+
+
 .model {
 	display: block;
 	height: 410px;
+}
+
+.model_teen {
+	display: block;
+	height: 220px;
 }
 
 .model img:nth-child(2) {
@@ -97,6 +107,11 @@ body {
 	margin-right: 70px!important;
     margin-left: 70px!important; 
 	}
+
+	.blq_modelos_2 {
+	margin-right: 120px!important;
+    margin-left: 120px!important; 
+	}
 }
 /* Laptop o Pc de baja resolución*/
 @media all and (min-width: 1024px){
@@ -107,6 +122,10 @@ body {
 	margin-right: 30px;
     margin-left: 30px; 
 	}
+	.blq_modelos_2 {
+	margin-right: 50px;
+    margin-left: 50px; 
+	}
 }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1023px){
@@ -116,6 +135,10 @@ body {
 	.blq_modelos {
 	margin-right: 120px;
     margin-left: 120px; 
+	}
+	.blq_modelos_2 {
+	margin-right: 130px;
+    margin-left: 130px; 
 	}
 }
 /* Celulares */
