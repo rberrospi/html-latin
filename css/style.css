@@ -80,24 +80,42 @@ body {
 }
 
 .blq_modelos {
-	margin-top: 50px; 
+	margin-top: 50px;
 }
 
 .model {
 	display: block;
-	height: 380px;
+	height: 410px;
 }
 
+.model img:nth-child(2) {
+	margin: 10px;
+}
+
+@media all and (min-width: 1366px){
+	.blq_modelos {
+	margin-right: 70px!important;
+    margin-left: 70px!important; 
+	}
+}
 /* Laptop o Pc de baja resolución*/
 @media all and (min-width: 1024px){
 	.navbar-nav{
 	float: right;
+	}
+	.blq_modelos {
+	margin-right: 30px;
+    margin-left: 30px; 
 	}
 }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1023px){
 	.nav>li>a {
 	    padding: 15px 5px;
+	}
+	.blq_modelos {
+	margin-right: 120px;
+    margin-left: 120px; 
 	}
 }
 /* Celulares */
