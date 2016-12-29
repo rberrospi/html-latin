@@ -7,6 +7,11 @@ body {
 	padding-left: 0px;
 }
 
+.footer {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
 .navbar-default {
     background-image: -webkit-linear-gradient(top,#181818 0,#050505 100%);
     background-image: -o-linear-gradient(top,#181818 0,#050505 100%);
@@ -102,6 +107,14 @@ body {
 	margin: 10px;
 }
 
+.redes {
+	background-color: #eeeeee;
+}
+
+.footer {
+	background-color: #0d0d0d;
+}
+
 @media all and (min-width: 1366px){
 	.blq_modelos {
 	margin-right: 70px!important;
@@ -117,6 +130,9 @@ body {
 @media all and (min-width: 1024px){
 	.navbar-nav{
 	float: right;
+	}
+	.navbar-default > .navbar-nav {
+		float: left;
 	}
 	.blq_modelos {
 	margin-right: 30px;
