@@ -7,6 +7,11 @@ body {
 	padding-left: 0px;
 }
 
+.m40 {
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
 .footer {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -56,7 +61,7 @@ body {
 }
 
 .slider {
-	background-image: url("../img/fondo_slider.png");
+	background-image: url("../img/fondo_slider.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 454px;
@@ -64,7 +69,7 @@ body {
 }
 
 .top_header {
-	background-image: url("../img/internas/banner/banner_scorts.png");
+	background-image: url("../img/internas/banner/banner_scorts.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 195px;
@@ -149,6 +154,14 @@ body {
 .txt_top > h2 {
 	margin-top: 10px;
 }
+/*
+.centrar .model > a > .t {
+	text-align: center;
+	background-image: url("../img/modelos/botones/btn_mod.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px 100px;
+}*/
 
 .centrar{
 	display: block;
@@ -557,6 +570,19 @@ ul.contacto {
 }
 
 
+#slideshow > div {
+  position: absolute;
+}
+
+.w {
+	display: block;
+	width: 343px;
+	margin: 0 auto;
+}
+
+.m {
+	display: none;
+}
 
 @media all and (min-width: 1366px){
 	.blq_modelos {
@@ -571,6 +597,12 @@ ul.contacto {
 }
 /* Laptop o Pc de baja resolución*/
 @media all and (min-width: 1024px){
+	#slideshow {
+  margin: 0px auto;
+  position: relative;
+  width: 530px;
+  z-index: 999;
+}
 	.navbar-nav{
 		float: right;
 	}
@@ -607,9 +639,50 @@ ul.contacto {
 		margin-right: 130px;
 		margin-left: 130px; 
 	}
+		.w {
+		display: none;
+	}
+
+	.m {
+		display: block;
+		width: 224px;
+		margin: 0 auto;
+	}
+
+	#slideshow {
+  width: 450px;
+}
+	#slideshow > div > img {
+  width: 450px;
+  padding-top: 20px
+}
+
+
 }
 /* Celulares */
 @media (max-width: 767px){
+
+	.w {
+		display: none;
+	}
+
+	.m {
+		display: block;
+		width: 224px;
+		margin: 0 auto;
+	}
+
+
+	#slideshow {
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	#slideshow > div > img{
+		padding-top: 30px;
+		width: 280px;
+		margin: 0 auto;
+	}
 
 	.navbar-brand img {
     width: 200px;
@@ -619,7 +692,7 @@ ul.contacto {
 		text-align: center;
 	}
 	.txt_slider {
-		display: none;
+		padding-top: 2px;
 	}
 	.navbar-nav>li>a {
 		padding-top: 10px;
