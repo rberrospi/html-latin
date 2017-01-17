@@ -584,6 +584,32 @@ ul.contacto {
 	display: none;
 }
 
+
+/* agencias */
+
+.agencias ul {
+	list-style: none;
+}
+
+.agencias {
+	margin: 0 20px;
+}
+
+.agencias img {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.agencias > ul {
+	margin-left: -40px;
+}
+
+.agencias > ul > li{
+	font-size: 16px;
+}
+
+
 @media all and (min-width: 1366px){
 	.blq_modelos {
 		margin-right: 70px!important;
