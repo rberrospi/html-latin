@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Escorts - Damas de Compañia - A1 - Calidad Total - LatinTops</title>
+	<meta name="description" content="Anuncios eróticos de peruvian escorts en Lima Scorts A1 Las mejores modelos de Lima, carnet de sanidad incluidado, fotos verificadas.">
+	<meta name="keywords" content="scorts, kinesiologas, scorts lima, damas de compañia, modelos vip, scorts vip">
+
+
+	<meta name="content-language" content="es" />
+	<meta name="robots" content="all" />
+	<meta name="geo.country" content="PE"/>
+	<meta name="geo.placename" content="Lima Metropolitana"/>
+	<meta name="geo.regioncode" content="PE-PE-LIM"/>
+
+
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/png" href="img/favicon.ico">		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/slider.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 sm">
+				<nav class="navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+						</div>						   	
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav menu_top">
+								<li><a href="scorts.html">SCORTS</a></li>
+								<li><a href="destacadas.html">DESTACADAS</a></li>	
+								<li><a href="agencias.html">AGENCIAS</a></li>
+								<li><a href="casting.html">CASTING</a></li>
+								<li><a href="nota-legal.html">NOTA LEGAL</a></li>
+								<li><a href="#"><div class="fb"></div></a></li>
+								<li><a href="#"><div class="tw"></div></a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col-md-12 div-gradient"></div>
+			<div class="col-md-12 slide">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-6">
+							<div class="txt_slider centrar">
+								<h3>LAS MEJORES</h3>
+								<h1>SCORTS</h1>
+								<img class="w"src="img/separador_texto.png">
+								<img class="m" src="img/separador_texto_m.png">
+								<p>Experiencias únicas con mujeres A1 por donde las mires</p>
+							</div>							
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-6">
+							<div class="slider">
+								<img src="img/slider/1.png">
+								<img src="img/slider/2.png">
+								<img src="img/slider/3.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-12 btn_slider">
+				<span class="centrar btn_flecha"><a href="#"><img src="img/flecha_abajo_slider.png"></a></span>
+			</div>	
+		</div>
+	</div>
+	<div class="container-fluid bg">
+		<div class="container sm">
+			<div class="txt_top centrar">
+				<h4>Conóce a las mejores chicas</h4>
+				<h2>TOP DE LIMA</h2>
+			</div>
+			<div class="row blq_modelos centrar">
+				<div class="col-xs-12 col-sm-6 col-md-3 model">
+					<a href="scort_detalle.html">
+						<div class="mod1">
+							<div class="mod_detalles_1"></div>
+							<img src="img/modelos/botones/btn_mod.png">
+						<div class="nombre">Disponible</div>
+						</div>		
+						
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model">
+					<a href="casting.html">
+						<div class="mod2">
+							<div class="mod_detalles_2"></div>							
+							<img src="img/modelos/botones/btn_mod.png">
+							<div class="nombre">Disponible</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model">
+					<a href="casting.html">
+						<div class="mod3">
+							<div class="mod_detalles_3"></div>							
+							<img src="img/modelos/botones/btn_mod.png">
+							<div class="nombre">Disponible</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model">
+					<a href="casting.html">
+						<div class="mod4">
+							<div class="mod_detalles_4"></div>
+							<img src="img/modelos/botones/btn_mod.png">
+						<div class="nombre">Disponible</div>
+						</div>						
+					</a>
+				</div>		
+			</div>
+			<div class="txt_top centrar">
+				<h4>Hermosas chicas del Perú</h4>
+				<h2>LIMA TEENS</h2>
+			</div>	
+			<div class="row blq_modelos_2 centrar">
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen1">
+							<div class="teen_detalle_1"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen2">
+							<div class="teen_detalle_2"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen3">
+							<div class="teen_detalle_3"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen4">
+							<div class="teen_detalle_4"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen5">
+							<div class="teen_detalle_5"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen6">
+							<div class="teen_detalle_6"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen7">
+							<div class="teen_detalle_7"></div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 model_teen">
+					<a href="casting.html">
+						<div class="teen8">
+							<div class="teen_detalle_8"></div>
+						</div>
+					</a>
+				</div>		
+			</div>	
+		</div>
+	</div>
+	<div class="container-fluid redes">
+		<div class="container">
+			<div class="txt_top centrar redes">
+				<h4>Por qué deberías elegir</h4>
+				<h2>LATIN TOPS</h2>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 centrar">
+					<img src="img/carnet.png">
+					<p>Nos preocupa tu seguridad, por lo que todas nuestras anunciadas cuentan con un carnet de sanidad vigente el cual podrás consultar en cualquier momento.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 centrar">
+					<img src="img/carnet2.png">
+					<p>Garantía de autenciticidad, todas las modelos son entrevistadas para garantizar que las fotos sean 100% reales y actuales.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 centrar">
+					<img src="img/carnet3.png">
+					<p>La discreción y excelencia es nuestra motivación, tu información no se almacena por ningun motivo, el trato es directamente con nuestras modelos.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footer">
+		<div class="col-md-12 div-gradient"></div>
+		<div class="container">
+			<nav class="navbar-default bot">
+				<ul class="nav navbar-nav">
+					<!--li><a href="#">Preguntas frecuentes</a></li-->
+					<li><a href="politicas-privacidad.html">Politicas y privacidad</a></li>
+					<li><a href="nota-legal.html.html">Nota Legal</a></li>					
+				</ul>
+
+			</nav>
+			<div class="logo_footer"><a target="_blank" href="http://smartrix.pe"><img src="img/logo_footer.png"></a></div>
+		</div>
+	</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46738400-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

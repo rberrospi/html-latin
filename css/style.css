@@ -1,5 +1,73 @@
 body {
-	background-color: #fff;
+	background-color: #222;
+	background-image: url(../img/bg2.jpg);
+	background-repeat: repeat;
+	color: #0d0d0d;
+	font-family: "NeoSans"
+}
+
+a {
+    color: #c81e45;
+}
+
+a:hover {
+    color: #c81e45;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+/* url("fonts/NeoSans.woff") format("woff"), no se encuentra disponible el formato woff en la tipografia */
+@font-face {
+   font-family: "NeoSans"; /* La fuente no estadisponible para iexlorer */
+   src: url("fonts/NeoSans.eot");
+   src: url("fonts/NeoSans.eot?#iefix") format("embedded-opentype"),
+        url("fonts/NeoSans.ttf") format("truetype"),
+        url("fonts/NeoSans.svg#NeoSans") format("svg");
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: "NeoSans_bold";
+   src: url("fonts/NeoSans-Bold.eot");
+   src: url("fonts/NeoSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/NeoSansProBold.ttf") format("truetype"),
+        url("fonts/NeoSans-Bold.svg#NeoSans-bold") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "NeoSans_medium";
+   src: url("fonts/NeoSans-Medium.eot");
+   src: url("fonts/NeoSans-Medium.eot?#iefix") format("embedded-opentype"),
+        url("fonts/NeoSans-Medium.ttf") format("truetype"),
+        url("fonts/NeoSans-Medium.svg#NeoSans-medium") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "NeoSans_light";
+   src: url("fonts/NeoSans-Light.H");
+   src: url("fonts/NeoSans-Light.eot?#iefix") format("embedded-opentype"),
+        url("fonts/NeoSans-Light.ttf") format("truetype"),
+        url("fonts/NeoSans-Light.svg#NeoSans-Light") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+#politicas div h3 {
+	color: #c81e45;
+}
+
+
+.title_dest {
+	font-size: 18px;
+	padding-top: 20px;
+	font-family: "NeoSans"
 }
 
 .sm {
@@ -12,9 +80,18 @@ body {
 	padding-left: 5%;
 }
 
+.m60 {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
 .footer {
 	padding-right: 0px;
 	padding-left: 0px;
+}
+
+.justificar {
+	text-align: justify;
 }
 
 .navbar-default {
@@ -60,7 +137,7 @@ body {
 	0px 0px 10px #80264A;
 }
 
-.slider {
+.slide {
 	background-image: url("../img/fondo_slider.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -132,7 +209,6 @@ body {
 	background-repeat:no-repeat;
 	background-position: center;
 	height: 51px;
-	background-color: #fff;
 }
 
 .txt_slider {
@@ -145,7 +221,6 @@ body {
 	background-image: url("../img/lineas_top.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #fff;
 }
 
 .txt_top > h4 {
@@ -153,6 +228,15 @@ body {
 }
 .txt_top > h2 {
 	margin-top: 10px;
+}
+
+
+.txt_slider p {
+	font-family: "NeoSans";
+}
+
+h1 {
+	 font-family: "NeoSans_bold";
 }
 /*
 .centrar .model > a > .t {
@@ -458,19 +542,30 @@ body {
 
 .model img:nth-child(2) {
 	margin: 10px;
+	position: relative;
 }
 
+.model a .nombre{
+	position: absolute;
+    text-align: center;
+    width: 200px;
+    margin: -38px auto;
+    color: #fff;
+    font-size: 17px;
+}
+
+
 .redes {
-	background-color: #eeeeee;
+	padding-bottom: 40px;
 }
 
 /* breadcrumb */
 
 .breadcrumb {
 	padding: 8px 0px;
-	background-color: #fff;
 	border-bottom: 1px solid #c5c5c5;
 	border-radius: 0px; 
+	background-color: rgba(255, 255, 255, 0);
 }
 
 .breadcrumb ul {
@@ -564,14 +659,18 @@ ul.contacto {
     width: 100%;
 }
 
+/* Sidebar */
 
-.footer {
-	background-color: #0d0d0d;
+.model_sponsor img {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 5px;
 }
 
 
-#slideshow > div {
-  position: absolute;
+.footer {
+	background-color: #0d0d0d;
 }
 
 .w {
@@ -609,6 +708,57 @@ ul.contacto {
 	font-size: 16px;
 }
 
+.form-control:focus {
+    border-color: #cf2148;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 30, 30, 0.32);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 102, 102, 0.53);
+}
+
+.rojo {
+	color: #c81e45;
+}
+
+
+.slider {
+    position: relative;
+    z-index: 999;
+}
+
+.slider img {
+	margin: 0 5% 0 5%;
+	position: absolute;
+	padding-top: 40px;
+	width: 90%;
+	animation: mm 10s infinite;
+	opacity: 0;
+}
+
+@keyframes mm {
+	10%{opacity:1}
+	45%{opacity:0}
+}
+
+.slider img:nth-child(0){animation-delay:0s }
+.slider img:nth-child(1){animation-delay:4s }
+.slider img:nth-child(2){animation-delay:6s }
+
+.redes .container .row {
+	padding-top: 40px;
+}
+
+.redes .container .row div p {
+	padding-top: 15px;
+}
+
+.logo_footer {
+	float: right;
+	padding-top: 10px;
+}
+
+.bot .navbar-nav>li>a {
+	padding-top: 10px;
+}
 
 @media all and (min-width: 1366px){
 	.blq_modelos {
@@ -620,15 +770,19 @@ ul.contacto {
 		margin-right: 120px!important;
 		margin-left: 120px!important; 
 	}
+
+		.txt_slider h3 {
+		font-size: 40px;
+	}
+
+	.txt_slider h1 {
+		font-size: 70px;
+	}
+
 }
 /* Laptop o Pc de baja resolución*/
 @media all and (min-width: 1024px){
-	#slideshow {
-  margin: 0px auto;
-  position: relative;
-  width: 530px;
-  z-index: 999;
-}
+
 	.navbar-nav{
 		float: right;
 	}
@@ -643,11 +797,29 @@ ul.contacto {
 		margin-right: 50px;
 		margin-left: 50px; 
 	}
+
+		.txt_slider h3 {
+		font-size: 40px;
+	}
+
+	.txt_slider h1 {
+		font-size: 70px;
+	}
+
 }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1023px){
+
+	.datos li {
+    font-size: 14px;
+	}
+
 	.navbar-brand {
 		padding-top: 22px;
+	}
+
+	.navbar-nav {
+    float: right;
 	}
 
 	.navbar-brand img {
@@ -668,25 +840,28 @@ ul.contacto {
 		.w {
 		display: none;
 	}
-
 	.m {
 		display: block;
 		width: 224px;
 		margin: 0 auto;
 	}
 
-	#slideshow {
-  width: 450px;
-}
-	#slideshow > div > img {
-  width: 450px;
-  padding-top: 20px
-}
+		.txt_slider h3 {
+		font-size: 40px;
+	}
+
+	.txt_slider h1 {
+		font-size: 70px;
+	}
 
 
 }
 /* Celulares */
 @media (max-width: 767px){
+
+	.slider img {
+	padding-top: 5px;
+	}
 
 	.w {
 		display: none;
@@ -698,17 +873,6 @@ ul.contacto {
 		margin: 0 auto;
 	}
 
-
-	#slideshow {
-		width: 280px;
-		margin: 0 auto;
-	}
-
-	#slideshow > div > img{
-		padding-top: 30px;
-		width: 280px;
-		margin: 0 auto;
-	}
 
 	.navbar-brand img {
     width: 200px;
@@ -728,5 +892,23 @@ ul.contacto {
 	}
 	#menu ul li:nth-child(7) a{
 		display: none;
+	}
+
+	.navbar-default {
+	    border-color: #0a0a0a;
+    	background-color: #101010;
+	}
+
+	.logo_footer {
+    float: none;
+    text-align: center;
+    padding-top: 5px;
+	}
+
+	.txt_slider h1 {
+    font-size: 40px;
+	}
+	.txt_slider h3 {
+    font-size: 20px;
 	}
 }
